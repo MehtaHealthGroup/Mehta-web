@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import About from "./components/about";
 import Contact from "./components/contact";
-import NotFound from "./components/notfound";
+import NotFound from "./components/notFound";
 import Footer from "./components/footer";
 import Payment from "./components/payment";
+
 
 function App() {
   return (
