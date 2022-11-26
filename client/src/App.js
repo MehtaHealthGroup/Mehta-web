@@ -9,6 +9,8 @@ import Contact from "./components/contact";
 import NotFound from "./components/notFound";
 import Footer from "./components/footer";
 import Payment from "./components/payment";
+import TermsAndCondition from "./components/terms-and-condition";
+import PrivacyPolicy from "./components/privacyPolicy";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/termsandcondition" element={<TermsAndCondition />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
